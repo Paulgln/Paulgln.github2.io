@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header.header img {
+    width: 150px;
+
+margin: 2%;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 80px;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #7e3300;
+}
+
+
+section.top-page {
+    background: black;
+    background-size: cover;
+    height: 30vh;
+    
+}
+
+h1 {
+    color: rgb(240, 35, 35);
+    font-size: 98px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.section-title {
+    color: white;
+    font-size: 50px;
+   font-weight: 100;
+   position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #7e3300;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.best-items {
+    margin: 100px;
+}
+
+.best-breads {
+    background-color: red;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bread-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+   min-width: 350px;
+   height: 500px;
+   flex: 1;
+}
+
+.bread1 {
+    background-image: url(../Image/bretzels4.jpg)
+}
+
+.bread2 {
+    background-image: url(../Image/petit-pain.jpg);
+}
+
+.bread3 {
+    background-image: url(../Image/croissant.jpg);
+}
+
+.bread4 {
+    background-image: url(../Image/pancakes.jpg);
+}
+
+.bread-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.bread-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.bread-price {
+    color: #7e3300;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.all-breads {
+    margin: 100px;
+    
+}
+
+.bread-grid {
+    display: grid;
+    min-height: 150vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 400px);
+}
+
+.bread-grid1 {
+    background-image: url(../Image/bretzels2.jpg);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    height: 100%;
+}
+
+.bread-grid2 {
+    background-image: url(../Image/paincampagne.jpg);
+    grid-column: 3/5;
+    height: 100%;
+}
+
+.bread-grid3 {
+    background-image: url(../Image/brioche.jpg);
+    grid-column: 3/5;
+    height: 100%;
+}
+
+.bread-grid4 {
+    background-image: url(../Image/cookies.jpg);
+    grid-column: 1;
+    grid-row: 3/5;
+}
+
+.bread-grid5 {
+    background-image: url(../Image/pita.jpg);
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.bread-grid6 {
+    background-image: url(../Image/bretzels5.jpg);
+    grid-column: 4;
+    grid-row: 3/5;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+    color: white;
+}
